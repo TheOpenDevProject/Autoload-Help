@@ -1,0 +1,17 @@
+{
+    "name": "theopendevproject/evolutioncms",
+    "description": "Fast, Easy, Clean. Some gears provided.",
+    "type": "project",
+    "autoload":{
+        "psr-4":{
+          "NamespaceTest\\AnotherSpace\\" : "./NamespaceTest/AnotherSpace"
+        }
+    },
+    "require": {
+        "j4mie/idiorm": "^1.5",
+        "cheprasov/php-redis-client": "^1.2",
+        "volnix/csrf": "^1.2"
+    },
+    "license": "GNU/GPL",
+    "minimum-stability": "dev"
+}
